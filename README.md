@@ -1,5 +1,6 @@
 <img src="./multistream.png" width="600px"></img>
 
+Figure 1: Multi-Stream Transformer Encoder. a. Transformer encoder is a sequence of layers, we use this architecture as a baseline. We differentiate input transformer layer $L_{in}$, streams $S_i$ and output transformer layer Lout in the encoder. Baseline ”linear stream” model has only one stream $S_1$. Skip connection is created if output of the input stream $Z_{in}$ is added to the output Z1 of the linear stream. b. Multi-Stream encoder with two streams $S_1$ and $S_2$. Skip connection is shown as a dashed line.
 ## Multistream Transformers
 
 Implementation of <a href="https://arxiv.org/abs/2107.10342">Multistream Transformers</a> in Pytorch.
