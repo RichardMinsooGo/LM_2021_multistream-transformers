@@ -1,4 +1,4 @@
-<img src="./multistream.png" width="300px"></img>
+<img src="./multistream.png" width="600px"></img>
 
 ## Multistream Transformers
 
